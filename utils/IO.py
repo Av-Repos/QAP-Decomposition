@@ -26,9 +26,9 @@ def print_QAP(d_matrix,h_matrix,n,filename):
 		print(str(n),file=f)
 		for i in range(n):
 			for j in range(n):
-				print(str(round(d_matrix[i][j],10))+" ",end="",file=f)
+				print(str(round(d_matrix[i][j],15))+" ",end="",file=f)
 			print(file=f)
 		for i in range(n):
 			for j in range(n):
-				print(str(round(h_matrix[i][j],10))+" ",end="",file=f)
+				print(str(round(h_matrix[i][j],15))+" ",end="",file=f)
 			print(file=f)
