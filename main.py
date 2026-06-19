@@ -18,7 +18,7 @@ print()
 # Instance reading
 while(True):
 
-	infile = input("Enter path to QAP instance in QAPLIB format (ensure that there is no blank line between the distance and flow matrices): ")
+	infile = input("Enter path to QAP instance in QAPLIB format: ")
 
 	print()
 	print("Reading instance...")
