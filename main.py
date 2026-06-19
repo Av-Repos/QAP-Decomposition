@@ -1,8 +1,8 @@
 import sys
 import os
 import numpy as np
-from IO import *
-from decompose import *
+from utils.IO import *
+from utils.decompose import *
 
 print("######################## Fourier Transform-based instance decomposition of the QAP - By Xabier Benavides ########################")
 print("###                                                                                                                           ###")
